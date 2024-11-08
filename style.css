@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.left-section {
+    width: 30%;
+    background-color: hsl(211, 23%, 74%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.profile-pic img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid white; 
+    box-shadow: 0 3px 4px white;   
+}
+
+.personal-info {
+    margin: 10px 0;
+    font-size: 20px;
+    color: black;
+}
+
+.right-section {
+    width: 70%;
+    padding: 20px;
+}
+
+/* Style for clickable h2 headings */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #990404;
+    border: 2px solid gray;
+    box-shadow: 0 2px 4px gray;
+    padding: 8px;
+    cursor: pointer; /* Add cursor pointer to indicate clickability */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+/* Hover effect on h2 headings */
+h2:hover {
+    background-color: #f0f0f0;
+}
+
+/* Hide content by default */
+.content {
+    display: none;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out; /* Smooth transition for visibility */
+}
+
+/* Style for paragraphs and lists */
+p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
